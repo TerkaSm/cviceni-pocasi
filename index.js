@@ -104,7 +104,7 @@ const predpoved = {
             <h1>${predpoved.utery.den}</h1>
             <h1><span> / </span>${predpoved.utery.denni_teplota}°C</h1>
             <h1><span> / </span>${predpoved.utery.stav_pocasi}</h1>
-            <p><a class="link" href="detail.html#pondeli">Více</a></p>
+            <p><a class="link" href="detail.html#utery">Více</a></p>
         </div>
     </div>
   `;
@@ -115,7 +115,7 @@ const predpoved = {
             <h1>${predpoved.streda.den}</h1>
             <h1><span> / </span>${predpoved.streda.denni_teplota}°C</h1>
             <h1><span> / </span>${predpoved.streda.stav_pocasi}</h1>
-            <p><a class="link" href="detail.html#pondeli">Více</a></p>
+            <p><a class="link" href="detail.html#streda">Více</a></p>
         </div>
     </div>
   `;
@@ -126,7 +126,7 @@ const predpoved = {
             <h1>${predpoved.ctvrtek.den}</h1>
             <h1><span> / </span>${predpoved.ctvrtek.denni_teplota}°C</h1>
             <h1><span> / </span>${predpoved.ctvrtek.stav_pocasi}</h1>
-            <p><a class="link" href="detail.html#pondeli">Více</a></p>
+            <p><a class="link" href="detail.html#ctvrtek">Více</a></p>
         </div>
     </div>
   `;
@@ -137,7 +137,7 @@ const predpoved = {
             <h1>${predpoved.patek.den}</h1>
             <h1><span> / </span>${predpoved.patek.denni_teplota}°C</h1>
             <h1><span> / </span>${predpoved.patek.stav_pocasi}</h1>
-            <p><a class="link" href="detail.html#pondeli">Více</a></p>
+            <p><a class="link" href="detail.html#patek">Více</a></p>
         </div>
     </div>
   `;
@@ -148,7 +148,7 @@ const predpoved = {
             <h1>${predpoved.sobota.den}</h1>
             <h1><span> / </span>${predpoved.sobota.denni_teplota}°C</h1>
             <h1><span> / </span>${predpoved.sobota.stav_pocasi}</h1>
-            <p><a class="link" href="detail.html#pondeli">Více</a></p>
+            <p><a class="link" href="detail.html#sobota">Více</a></p>
         </div>
     </div>
   `;
@@ -159,7 +159,7 @@ const predpoved = {
             <h1>${predpoved.nedele.den}</h1>
             <h1><span> / </span>${predpoved.nedele.denni_teplota}°C</h1>
             <h1><span> / </span>${predpoved.nedele.stav_pocasi}</h1>
-            <p><a class="link" href="detail.html#pondeli">Více</a></p>
+            <p><a class="link" href="detail.html#nedele">Více</a></p>
         </div>
     </div>
   `;
