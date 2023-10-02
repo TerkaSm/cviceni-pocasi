@@ -84,3 +84,29 @@ const predpoved = {
     popis_pocasi: "Neděle bude krásný slunečný den s teplotami mezi 18°C ráno a 26°C odpoledne. Nebude žádná oblačnost, a tak můžete očekávat celodenní slunečné počasí. Rychlost větru dosáhne 9 km/h a atmosférický tlak bude 1017 hPa.",
   },
 };
+
+const predpovedID = window.location.hash.slice(1);
+const predpovedData = predpoved[predpovedID]
+const mainElement = document.querySelector('main');
+
+mainElement.innerHTML += `
+  <div class="predpoved-karta">
+    <div class="flex">
+        <div class="flex-1-z-2">
+            <p><span>Den: </span>${predpovedData.den}</p>
+            <p><span>Datum: </span>${predpovedData.datum}</p>
+            <p><span>Denní teplota: </span>${predpovedData.denni_teplota}</p>
+            <p><span>Ranní teplota: </span>${predpovedData.ranni_teplota}</p>
+            <p><span>Odpolední teplota: </span>${predpovedData.odpoledni_teplota}</p>
+        </div>
+        <div class="flex-1-z-2">
+            <p><span>Večerní teplota: </span>${predpovedData.vecerni_teplota}</p>
+            <p><span>Stav počasí: </span>${predpovedData.stav_pocasi}</p>
+            <p><span>Tlak: </span>${predpovedData.tlak}</p>
+            <p><span>Rychlost větru: </span>${predpovedData.rychlost_vetru}</p>
+        </div>
+    </div>
+    <p>${predpovedData.popis_pocasi}</p>
+    <p><a class="link link--maly" href="index.html">Zpět</a></p>
+  </div>
+`;
